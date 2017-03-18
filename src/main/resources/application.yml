@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  springdata:
+    mongodb:
+      relational: false
+      name: mongodb
+      founders:
+      - "Kevin P. Ryan"
+      - "Eliot Horowitz"
+      - "Dwight Merriman"
+    oracle:
+      relational: true
+      name: oracle
+      founders:
+      - "Lawrence J. Ellison"
+      - "Ed Oates"
+      - "Bob Miner"
+
