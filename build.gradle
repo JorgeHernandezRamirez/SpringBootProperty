@@ -18,7 +18,7 @@ apply plugin: 'maven'
 sourceCompatibility = 1.8
 
 springBoot {
-    mainClass = "com.jorgehernandezramirez.spring.springboot.helloworld.Application"
+    mainClass = "com.jorgehernandezramirez.spring.springboot.property.Application"
 }
 
 repositories {

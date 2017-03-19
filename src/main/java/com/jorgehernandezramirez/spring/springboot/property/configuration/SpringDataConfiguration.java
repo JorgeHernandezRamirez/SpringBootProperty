@@ -8,7 +8,7 @@ import java.util.List;
 
 @Configuration
 @ConfigurationProperties("spring.springdata.mongodb")
-public class SpringDataConfiguration implements Serializable {
+public class SpringDataConfiguration {
 
     private Boolean relational;
 
